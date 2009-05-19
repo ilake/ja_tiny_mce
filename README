@@ -14,7 +14,7 @@ rake db:migrate
 
 2, Install dependent plugins(if you didn't):
 
-rake ja_tiny_mce:install
+rake ja_tiny_mce:plugins
 
 this command would copy attachment_fu, responds_to_parent, will_paginate to your plugin directory, and the jrails you could install it or just include a jquery file
 
@@ -43,7 +43,7 @@ Then append the following to the text area you want to transform into a TinyMCE 
 6. Install file lists
 ==================
 
-rake tiny_mce_plus:install 
+rake ja_tiny_mce:install 
 
 will Install following files:
 
